@@ -1,0 +1,17 @@
+{
+  "name": "mochatesting",
+  "version": "1.0.0",
+  "description": "first tests with mocha nodejs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -R spec test/*.js"
+  },
+  "author": "Alla",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
